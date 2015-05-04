@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/AppTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat"/>
+
+
+        <ImageView
+
+            android:layout_below="@+id/app_bar"
+            android:layout_margin="10dip"
+            android:layout_marginTop="20dip"
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+
+            android:src="@drawable/noimage" />
+
+
+
+    
+
+
+
+    <EditText
+        android:layout_below="@+id/imageView2"
+        android:id="@+id/cima"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:hint="texto de cima"
+
+
+        />
+    <EditText
+        android:layout_below="@+id/cima"
+        android:id="@+id/baixo"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:hint="texto de baixo"
+
+
+
+        />
+   
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- Enable verbose logging -->
+    <string name="ga_Loglevel">verbose</string>
+
+    <!-- The screen names that will appear in reports -->
+    <screenName name="com.matheushofstede.knowyourmene.MainActivity">MainActivity</screenName>
+
+    <screenName name="com.matheushofstede.knowyourmene.FullImageActivity">FullImageActivity</screenName>
+
+    <screenName name="com.matheushofstede.knowyourmene.EditActivity">EditActivity</screenName>
+
+    <screenName name="com.matheushofstede.knowyourmene.UserSettingActivity">UserSettingActivity</screenName>
+
+    <!--  The following value should be replaced with correct property id. -->
+    <string name="ga_trackingId">UA-62027103-1</string>
+</resources>

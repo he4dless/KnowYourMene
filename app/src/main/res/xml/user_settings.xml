@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Settings" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="firsttime"
+            android:summary="A próxima que o app iniciar o tutorial vai aparecer no começo."
+            android:title="Mostrar tutorial outra vez" >
+        </CheckBoxPreference>
+        <Preference
+
+            android:key="button"
+            android:summary="Atualiza a database com menes novos, use também caso eles não estejam aparecendo no inicio."
+            android:title="Atualizar database!" >
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Layout" >
+
+
+        <ListPreference
+            android:key="grid_columns"
+            android:title="Itens por linha"
+            android:summary="Defina o número de itens na horizontal por linha (atualize a database para aplicar)"
+            android:entries="@array/grid"
+            android:entryValues="@array/grid"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

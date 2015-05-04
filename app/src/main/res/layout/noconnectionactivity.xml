@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sem conecssaum"
+        android:id="@+id/titulo"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/carinha"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/carinha"
+        android:layout_weight="0.20"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/random"
+        android:layout_gravity="center_horizontal" />
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fabe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:src="@drawable/ic_autorenew_white_48dp"
+        app:fab_colorNormal="@color/colorAccent"
+        app:fab_colorPressed="@color/colorPrimary"
+        app:fab_colorRipple="@color/colorSecondaryText"
+
+        >
+    </com.melnykov.fab.FloatingActionButton>
+</LinearLayout>

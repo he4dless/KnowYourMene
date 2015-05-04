@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mais"
+        android:orderInCategory="1"
+        android:title="Aumentar fonte"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_add_black_48dp"/>
+
+    <item
+        android:id="@+id/menos"
+        android:orderInCategory="1"
+        android:title="Diminuir fonte"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_remove_black_48dp"/>
+
+
+
+
+
+
+</menu>
