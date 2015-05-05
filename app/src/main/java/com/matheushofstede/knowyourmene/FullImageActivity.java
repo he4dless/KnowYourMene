@@ -373,7 +373,19 @@ public class FullImageActivity extends ActionBarActivity {
 
 
 
-
+public showBottonSheet(){
+	new BottomSheet.Builder(this)
+            .title("Opções")
+            .grid() // <-- important part
+            .sheet(R.menu.bsfullimageactivity)
+            .listener(new DialogInterface.OnClickListener() {
+        @Override
+        public void onClick(DialogInterface dialog, int which) {
+            // TODO
+        }
+    }).show();
+	
+}
 	
 	
 	}
